@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  }
+  .myhome h1 {
+  font-size: 40px !important;
+}
+  a:link, a:visited, a:hover {
+    text-decoration: none !important;
+  }
+  
+  #menu-toggle:checked + #menu {
+    display: block;
+  }
+
+  button,
+  .gradient2 {
+    background-color: #fff;
+  }
+
+  .browser-mockup {
+    border-top: 2em solid rgba(230, 230, 230, 0.7);
+    position: relative;
+    height: 60vh;
+  }
+
+  .browser-mockup:before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: -1.25em;
+    left: 1em;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background-color: #f44;
+    box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5;
+  }
+
+  .browser-mockup > * {
+    display: block;
+  }
+
+
+.h-100vh {
+  height: 100vh;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.home {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider {
+  position: absolute;
+  z-index: 0;
+}
+
+.home-bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+iframe#mbYTP_bgndVideo {
+  transform: scale(1.1) !important;
+}
+
+.ytp-ce-element {
+  display: none !important;
+}
+
+iframe#mbYTP_bgndVideo {
+  transform: scale(1.1) !important;
+}
+
+span#controlBar_bgndVideo {
+  display: none !important;
+}
+
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}

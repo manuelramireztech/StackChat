@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+
+<body>
+
+    <section class="hero is-success is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="column is-4 is-offset-4">
+                    <h3 class="title has-text-black">Login</h3>
+                    <hr class="login-hr">
+                    <p class="subtitle has-text-black">Please login to proceed.</p>
+                    <div class="box">
+
+                        <form class="form-login">
+                            <div class="field">
+                                <div class="control">
+                                    <input id="userEmail" class="input is-large"  type="email" placeholder="Your Email">
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <input id="userPassword" class="input is-large" type="password" placeholder="Your Password">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    Remember me
+                                </label>
+                            </div>
+                            <button class="button is-block is-info is-large is-fullwidth">Login <i class="fa fa-sign-in"
+                                    aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                    <p class="has-text-grey">
+                        <a href="/" id="userSignUp">Sign Up</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>STACKCHAT</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+      <link rel='stylesheet' href='assets/css/tailwind.min.css'>
+      <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css">
+   <body class="bg-gray-100 antialiased font-sans">
+      <nav id="header" class="lg:px-16 px-8 bg-white flex flex-wrap items-center py-4 shadow-md">
+         <div class="flex-1 flex justify-between items-center">
+            <a class="flex items-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="/home"><i class="fas fa-layer-group"></i>&nbsp; STACKCHAT </a>
+         </div>
+         <label for="menu-toggle" class="pointer-cursor md:hidden block">
+            <svg class="fill-current text-gray-900"
+               xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+               <title>menu</title>
+               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+         </label>
+         <input class="hidden" type="checkbox" id="menu-toggle" />
+         <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+            <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
+               <li><a class="md:p-4 py-3 px-0 block" href="/login"><i class="far fa-user-circle"></i>&nbsp; Login</a></li>
+               <li><a class="md:p-4 py-3 px-0 block" href="/register"><i class="far fa-smile-wink"></i>&nbsp; Register</a></li>
+            </ul>
+      </nav>
+      </div>
+      </header>
+      <section class="home home-bg section" id="home">
+      <div id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=lRTtMcx6rSM&t=910s',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}">My video</div>
+      <div class="bg-overlay">
+         <div class="container mx-auto h-screen">
+            <div class="text-center px-3 lg:px-0 mt-20">
+               <h1 class="my-4 text-2xl md:text-3xl lg:text-5xl font-black leading-tight text-white">
+                  Stay Connected with us!
+               </h1>
+               <p class="leading-normal text-white-800 md:text-xl lg:text-2xl mb-8 text-white"> The best way to share code with others developer! </p>
+               <a href="/login"><button class="p-10 mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"> Start Chat </button></a>  &nbsp;&nbsp; <a href="/register"><button class="mx-auto lg:mx-0 hover:underline text-gray-800 font-extrabold rounded my-2 md:my-6 py-4 px-8 shadow-lg w-48"> Register now </button></a>
+            </div>
+            <div class="flex items-center w-full mx-auto content-end">
+               <div
+                  class="browser-mockup flex flex-1 m-6 md:px-0 md:m-12 bg-white w-1/2 rounded shadow-xl">
+                  <div class="container mx-auto h-screen">
+                     <div class="text-center px-3 lg:px-0 mt-20">
+                        <h1 class="myhome my-4 text-2xl md:text-3xl lg:text-4xl font-black leading-tight text-black">
+                           STACKCHAT APP 
+                        </h1>
+                        <p class="leading-normal text-gray-800 md:text-xl lg:text-1xl mb-8 text-black"> made with <span style="color: #e25555;"><i class="fas fa-heart"></i></span> by UCF coding bootcamp students. </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="assets/js/plugin.js"></script>
+      <script src="assets/js/app.js"></script>
+   </body>
+</html>
